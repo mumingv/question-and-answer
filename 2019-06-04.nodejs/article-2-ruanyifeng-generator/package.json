@@ -1,0 +1,14 @@
+{
+  "name": "article-2-ruanyifeng-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callback_01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-readfile-promise": "^3.0.1"
+  }
+}
