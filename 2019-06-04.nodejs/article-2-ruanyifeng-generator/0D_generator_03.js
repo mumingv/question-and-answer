@@ -1,5 +1,5 @@
 /**
- * Generator 函数：传递异常
+ * Generator函数：传递异常
  */
 
 function* gen(x) {

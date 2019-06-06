@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs-readfile-promise": "^3.0.1"
+    "fs-readfile-promise": "^3.0.1",
+    "node-fetch": "^2.6.0"
   }
 }

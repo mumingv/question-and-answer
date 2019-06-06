@@ -1,5 +1,5 @@
 /**
- * Generator 函数：数据交换
+ * Generator函数：数据交换
  */
 
 function* gen(x) {
