@@ -1,5 +1,5 @@
 /**
- * 异步处理方式：回调函数
+ * 异步处理方式：回调函数，串行读取三个文件
  */
 
 const fs = require('fs');
@@ -16,4 +16,5 @@ fs.readFile('Jay.txt', 'utf8', function (err, data) {
         });
     });
 });
+
 console.log("finish");
