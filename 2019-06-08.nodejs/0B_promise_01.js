@@ -1,5 +1,5 @@
 /**
- * 异步处理方式：Promise
+ * 异步处理方式：Promise，串行读取三个文件
  */
 
 var readFilePromise = require('fs-readfile-promise');
