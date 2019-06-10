@@ -1,5 +1,5 @@
 /**
- * 异步处理方式：Generator函数，
+ * 异步处理方式：Generator函数
  */
 
 var readFilePromise = require('fs-readfile-promise');
@@ -19,7 +19,7 @@ gen.next().value.then(function(data) {
 		console.log(data);
 		gen.next().value.then(function(data) {
 			console.log(data);
-			gen.next();  // 返回：{ value: undefined, done: true }，表示生成器函数执行完成
+			gen.next();  // 返回：{ value: undefined, done: true }，表示生成器函数执行结束
 		});
 	});
 });
