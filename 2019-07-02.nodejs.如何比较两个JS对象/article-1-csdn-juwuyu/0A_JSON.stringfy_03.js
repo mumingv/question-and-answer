@@ -1,4 +1,4 @@
-// toString()函数无法得到期望的字符串
+// 使用JSON.stringify()得到期望的字符串
 
 const obj = {
     id: 0,
