@@ -17,6 +17,15 @@ exports.getAction = function(req, res) {
     return res.send("product get action");
 }
 
+// 简化函数：function 改成 =>
+module.exports.simpleAction = (req, res) => {
+    return res.send("product simple action");
+};
+
+// 更简化函数：function 改成 =>，省略大括号
+// URL使用大小写均可：/demo/product/moreSimple 或 /demo/product/moresimple
+module.exports.moreSimpleAction = (req, res) => res.send("product moreSimple action");
+
 /**
  * 对象方式
  */
