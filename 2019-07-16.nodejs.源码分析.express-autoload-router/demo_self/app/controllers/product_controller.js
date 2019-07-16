@@ -1,6 +1,13 @@
 /**
  * 函数方式
  */
+
+// 默认路由，访问方式：/demo/product
+module.exports.indexAction = function(req, res) {
+    return res.send("product index action");
+};
+
+// 普通路路由，访问方式：/demo/product/list
 module.exports.listAction = function(req, res) {
     return res.send("product list action");
 };
