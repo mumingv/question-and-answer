@@ -1,3 +1,7 @@
+// 【语法】
+// 数组迭代新方法：for...of... 
+// 神奇函数：(function iterate() {})(); 
+
 /**
  * Compose middlewares
  *
