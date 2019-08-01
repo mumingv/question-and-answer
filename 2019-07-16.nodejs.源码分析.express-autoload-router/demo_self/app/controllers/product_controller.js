@@ -53,13 +53,16 @@ module.exports.lookAction = {
         function(req, res, next) {
             console.log("middlewares 1");
             next();
+            console.log("middlewares 1 end");
         },
         function(req, res, next) {
             console.log("middlewares 2");
             next();
+            console.log("middlewares 2 end");
         }
     ],
     handler: function(req, res) {
+        console.log("product look action");
         return res.send("product look action");
     }
 };
